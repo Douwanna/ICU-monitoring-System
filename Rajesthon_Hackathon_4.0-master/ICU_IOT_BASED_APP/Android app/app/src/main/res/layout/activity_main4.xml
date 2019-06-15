@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="128dp"
+        android:layout_height="44dp"
+        android:text="Pulse Rate"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="51dp"
+        android:layout_above="@+id/textView3"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_marginBottom="68dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="132dp"
+        android:layout_height="46dp"
+        android:text="Body Temperature"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="170dp"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="125dp"
+        android:layout_height="44dp"
+        android:text="Bed No"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="261dp"
+        android:layout_alignBottom="@+id/editText4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="134dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="103"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="51dp"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="126dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="31"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="170dp"
+        android:layout_above="@+id/editText4"
+        android:layout_alignRight="@+id/editText4"
+        android:layout_alignEnd="@+id/editText4"
+        android:layout_marginBottom="68dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="122dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="5 "
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="261dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="54dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="149dp" />
+</RelativeLayout>

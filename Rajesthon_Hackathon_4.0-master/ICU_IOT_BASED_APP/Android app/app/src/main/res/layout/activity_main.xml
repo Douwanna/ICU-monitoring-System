@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ogdhack_maa143.icu.MainActivity">
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="326dp"
+        android:layout_height="48dp"
+
+        android:inputType="textEmailAddress"
+        android:hint="User Name/email address"
+        tools:layout_editor_absoluteY="45dp"
+        tools:layout_editor_absoluteX="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/pwd"
+        android:layout_alignStart="@+id/pwd"
+        android:layout_marginTop="39dp" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="331dp"
+        android:layout_height="41dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        tools:layout_editor_absoluteY="103dp"
+        tools:layout_editor_absoluteX="27dp"
+        android:layout_below="@+id/user"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_marginTop="41dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:text="Log in"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="164dp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:onClick="openSecond"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="325dp"
+        android:layout_height="61dp"
+        android:text="Or Sign in"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="242dp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:onClick="openSecond2"/>
+
+</RelativeLayout>

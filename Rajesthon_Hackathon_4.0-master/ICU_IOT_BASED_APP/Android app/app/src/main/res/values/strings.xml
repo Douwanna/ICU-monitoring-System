@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ICU</string>
+
+    <string name="country_prompt">Choose a hospital</string>
+    <string name="pulse_rate">Pulse Rate</string>
+
+    <string-array name="country_arrays">
+        <item>S.R.M Hospital</item>
+        <item>K.G Hospital</item>
+        <item>Cauvery Hospital</item>
+        <item>Vasan Hospital</item>
+        <item>Hi-tech Hospital</item>
+        <item>V-care Hospital</item>
+
+    </string-array>
+
+</resources>
+
